@@ -46,7 +46,7 @@ for i in  range(len(data)):
 for i in range(len(instar(data[0]))-1,-1,-1):
     print(' {:3d} │ '.format((i+1)*10),end='')
     for j in range(len(data)) :
-        print(' {:2s} '.format(outstar.get(data[j])[i%10]),end='')
+        print(' {:2s} '.format(outstar.get(data[j])[i]),end='')
     print()
 print('      '+'───'* len(data)) # 6번 공백
 print('       ',end='')
